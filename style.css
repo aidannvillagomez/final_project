@@ -48,3 +48,13 @@ footer {
   font-size: 0.9em;
   color: #747272;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border: #000000 2px solid ;
+  border-radius: 3%;
+  box-shadow: #000000 2px 2px 5px;
+}
