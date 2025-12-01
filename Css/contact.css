@@ -1,0 +1,55 @@
+ body { 
+   font-family: Arial, sans-serif;
+    padding: 2rem;
+    }
+
+form {
+ max-width: 500px;
+ margin: auto; 
+  }
+
+ fieldset { 
+   border: 1px solid #ccc; 
+ padding: 1rem;
+ }
+
+legend {
+   font-weight: bold;
+ }
+
+label {
+    display: block;
+   margin-top: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem; 
+ }
+
+button {
+  background-color: hsl(292, 90%, 51%);
+  color: #000000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+    button:hover {
+      background: #ff145a;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(206, 0, 0, 0.3);
+    }
+
+    button:active {
+      transform: scale(0.95);
+      box-shadow: 0 2px 4px rgba(255, 0, 0, 0.2);
+    }
+
+    
+    button.glow:hover {
+      background: #ff005d;
+      box-shadow: 0 0 20px #ff0059, 0 0 40px #0078d7;
+    }

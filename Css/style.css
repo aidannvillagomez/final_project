@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffa6f3;
+  color: #000000;
+  padding: 20px;
+}
+
+header {
+  background-color: hsl(292, 100%, 53%);
+  color: #000000;
+  padding: 10px 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #747272;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border: #000000 2px solid ;
+  border-radius: 3%;
+  box-shadow: #000000 2px 2px 5px;
+}
+
+.image-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+
+.image-row img {
+  width: 500px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+button {
+  background-color: hsl(292, 90%, 51%);
+  color: #000000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+    button:hover {
+      background: #ff145a;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(206, 0, 0, 0.3);
+    }
+
+    button:active {
+      transform: scale(0.95);
+      box-shadow: 0 2px 4px rgba(255, 0, 0, 0.2);
+    }
+
+    
+    button.glow:hover {
+      background: #ff005d;
+      box-shadow: 0 0 20px #ff0059, 0 0 40px #0078d7;
+    }
+    @media (max-width: 768px) {
+      .sidebar, .main, .image-row, .img, .image-row img {
+        flex: 1 1 100%;
+      }}
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 2px solid #f700ff; 
+    }
+
+    th {
+      background-color: #a100d7;
+      color: white;
+    }
+
+    
+    table {
+      border: 4px double #96009e; 
+      box-shadow: 0 0 15px rgba(0, 120, 215, 0.5); 
+      border-radius: 10px; 
+    }
+
+  
+    tr:nth-child(even) {
+      background-color: #ef9eeb;
+    }
+    tr:nth-child(odd) {
+      background-color: #e7b3dd;
+    }
+
+  
+    tr:hover {
+      background-color: #b700ff;
+      transition: 0.3s;
+    }
